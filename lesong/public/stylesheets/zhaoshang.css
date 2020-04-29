@@ -1,0 +1,149 @@
+*{margin:0;padding:0;}
+li{list-style: none;}
+a{text-decoration:none;}
+
+.container-fluid{
+	position: relative;
+}
+.hetop{
+	background-color: #BCBCBC;
+	height: 20px;
+}
+.ltfont{
+	font-size: 12px;
+	padding: 0;
+	text-align: center;
+	line-height: 20px;
+	color: #fff;
+	font-family: "微软雅黑";
+}
+.rifont{
+	font-size: 12px;
+	padding: 0;
+	text-align: center;
+	line-height: 20px;
+	color: #fff;
+	font-family: "微软雅黑";
+}
+.daohang{
+	padding: 0;
+	
+}
+.tpto{
+	height: 65px;
+	position: relative;
+	box-shadow: 0 5px 15px 0 #bcbcbc;
+}
+.tpto>ul{
+	width: 700px;
+	height: 50px;
+	position: absolute;
+	right: 0;
+}
+.tpto>ul>li{
+	float:left;
+	margin: 20px 13px;
+	font-size: 14px;
+	color: gray;
+	font-family: "微软雅黑";
+}
+.at1{
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+.rea{
+	height: 100px;
+	position: absolute;
+	top:8%;
+	left:8%;
+}
+.rifont1{
+	font-size: 14px;
+    text-align: center;
+	line-height: 50px;
+	color: #000;
+	font-family: "微软雅黑";
+	float: left;
+	margin-left: 200px;
+}
+.rifont2{
+	font-size: 14px;
+    text-align: center;
+	line-height: 50px;
+	color: #000;
+	font-family: "微软雅黑";
+	float: right;
+}
+
+/* 中间部分 */
+.zet1{
+	height: 80px;
+	font-size: 44px;
+	color: #646464;
+	font-family:"微软雅黑" ;
+	margin-top: 60px;
+}
+.zet1>div>p{
+	font-size: 24px;
+	color: #DAA520;
+}
+.zet2{
+	margin-top: 30px;
+}
+.imgdox{
+	width: 100%;
+}
+.zeleft{
+	font-size: 36px;
+	color: #555452;
+	font-family:"微软雅黑" ;
+	line-height: 35px;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+.zeleft>p{
+	font-size: 72px;
+}
+.zt{
+	line-height: 30px;
+}
+.zt>input{
+	width: 90%;
+	height: 45px;
+}
+.zt4{
+	margin-top: 20px;
+	width: 50px;
+	height: 30px;
+}
+
+
+/* 尾部部分 */
+.fot1{
+	height: 107px;
+	background-color: #E9E9E9;
+	text-align: center;
+	font-size: 24px;
+	font-family: "微软雅黑";
+	line-height: 107px;
+	margin-top: 60px;
+}
+.fot2{
+	height: 207px;
+	background-color: #E9E9E9;
+	font-size: 15px;
+	font-family: "微软雅黑";
+	color: gray;
+}
+.fot2>div>ul>li:nth-child(1){
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+.fot3{
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 13px;
+	color: #ADD8E6;
+	font-family: "微软雅黑";
+}

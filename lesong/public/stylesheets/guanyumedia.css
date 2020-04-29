@@ -1,0 +1,110 @@
+@media screen and (min-width:992px){
+	.daohang{
+		display: none;
+	}
+	.rea{
+		display: none;
+	}
+	.fot3{
+		display: none;
+	}
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	.hetop{
+		display: none;
+	}
+	.daohang{
+		display: block;
+		background-color: #41484D;
+	}
+	.tpto{
+		height: 100px;
+		box-shadow: 0 5px 15px 0 #bcbcbc;
+	}
+	.tpto>ul{
+		display: none!important;
+	}
+	.rea{
+		display: none;
+	}
+	.as1>img{
+		display: block;
+		margin: 0 auto;
+	}
+	.as2>div{
+		text-align: center;
+	}
+	.as2>span{
+		width: 360px;
+		text-align: center;
+		display: block;
+		margin: 0 auto;
+	}
+	.as3>div{
+		text-align: center;
+	}
+	.as3>span{
+		width: 360px;
+		text-align: center;
+		display: block;
+		margin: 0 auto;
+	}
+	.fot3{
+		display: block;
+	}
+	.fot1{
+		display: none;
+	}
+	.fot2{
+		display: none;
+	}
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+	.hetop{
+		display: none;
+	}
+	.tpto{
+		height: 100px;
+	}
+	.tpto>ul{
+		display: none!important;
+	}
+	.as1>img{
+		display: block;
+		margin: 0 auto;
+	}
+	.as2>div{
+		text-align: center;
+	}
+	.as2>span{
+		width: 260px;
+		text-align: center;
+		display: block;
+		margin: 0 auto;
+	}
+	.as3>div{
+		text-align: center;
+	}
+	.as3>span{
+		width: 260px;
+		text-align: center;
+		display: block;
+		margin: 0 auto;
+	}
+	.fot3{
+		display: block;
+	}
+	.fot1{
+		display: none;
+	}
+	.fot2{
+		display: none;
+	}
+}
