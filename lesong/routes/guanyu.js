@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('chanpin');
+  res.render('guanyu', { title: 'Express' });
 });
 
 module.exports = router;

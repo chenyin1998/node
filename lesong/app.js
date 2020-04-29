@@ -8,7 +8,9 @@ var ejs = require('ejs');
 /* 引入路由文件 */
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-var chanpinRouter = require('./routes/chanpin');
+var guanyuRouter = require('./routes/guanyu');
+var zhaoshangRouter = require('./routes/zhaoshang');
+
 var app = express();
 
 // view engine setup
@@ -25,7 +27,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 // 分配路由
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
-app.use('/chanpin', chanpinRouter);
+app.use('/guanyu', guanyuRouter);
+app.use('/zhaoshang', zhaoshangRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
